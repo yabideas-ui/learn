@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ekanthi — Coaching Trackers</title>
+<style>
+  :root{--bg:#f6f5f1;--card:#fff;--ink:#1d2330;--muted:#677084;--line:#e3e1da;--brand:#1f4e79}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;background:var(--bg);color:var(--ink)}
+  header{background:var(--brand);color:#fff;padding:40px 20px 36px}
+  .wrap{max-width:960px;margin:0 auto}
+  h1{margin:0;font-size:30px;letter-spacing:.01em}
+  .sub{opacity:.8;margin-top:6px}
+  main{padding:28px 20px 40px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+  a.card,.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;text-decoration:none;color:inherit;transition:border-color .15s, transform .15s}
+  a.card:hover{border-color:var(--brand);transform:translateY(-2px)}
+  .tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;background:#e7eef6;color:var(--brand)}
+  .card h3{margin:10px 0 4px;font-size:19px}
+  .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.45}
+  .card .go{margin-top:12px;font-weight:600;color:var(--brand);font-size:14px}
+  .soon{border-style:dashed;background:transparent}
+  .soon h3{color:var(--muted)}
+  footer{max-width:960px;margin:0 auto;padding:0 20px 30px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Ekanthi</h1>
+    <div class="sub">Coaching plans and progress trackers</div>
+  </div>
+</header>
+<main class="wrap">
+  <h2>Classes</h2>
+  <div class="grid">
+    <a class="card" href="class10/">
+      <span class="tag">CBSE · Board 2027</span>
+      <h3>Class 10</h3>
+      <p>Maths, Science, Social Science. Chapter plan, weekly tests, mistake log and session log.</p>
+      <div class="go">Open tracker &rarr;</div>
+    </a>
+    <div class="card soon">
+      <span class="tag" style="background:#eceae4;color:#677084">Coming soon</span>
+      <h3>More classes</h3>
+      <p>New classes will be added here.</p>
+    </div>
+  </div>
+</main>
+<footer>Tracker data is saved only in the browser of the device you use. Download a backup from each tracker's Backup tab.</footer>
+</body>
+</html>
